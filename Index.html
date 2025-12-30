@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ACS Pathway</title>
+  <meta name="description" content="Aviation training syllabi, checklists, and ACS-aligned resources." />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#0b1220; color:#e8eefc; }
+    header { padding: 48px 20px; text-align:center; background:#0f1a33; }
+    h1 { margin: 0 0 10px; font-size: 40px; }
+    p { margin: 0; opacity: 0.9; }
+    main { max-width: 980px; margin: 0 auto; padding: 28px 20px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:16px; }
+    .card { background:#121f3d; border:1px solid rgba(255,255,255,.08); border-radius:14px; padding:16px; }
+    .card h3 { margin: 0 0 8px; }
+    .btn { display:inline-block; padding:10px 12px; border-radius:10px; background:#2b6cff; color:#fff; text-decoration:none; font-weight:700; }
+    .muted { font-size: 14px; opacity: 0.85; }
+    footer { padding: 24px 20px; text-align:center; opacity:.8; }
+    a { color:#8fb4ff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ACS Pathway</h1>
+    <p>Aviation syllabi, checklists, and ACS-aligned training resources.</p>
+  </header>
+
+  <main>
+    <h2>Products</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Private Pilot Syllabus (ASEL)</h3>
+        <p class="muted">Lesson-by-lesson syllabus aligned to the ACS tasks.</p>
+        <p><a class="btn" href="https://gumroad.com/" target="_blank" rel="noopener">Buy</a></p>
+      </div>
+
+      <div class="card">
+        <h3>C172 Checklist Pack</h3>
+        <p class="muted">Normal, abnormal, and emergency checklists (PDF).</p>
+        <p><a class="btn" href="https://gumroad.com/" target="_blank" rel="noopener">Buy</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Instrument ACS Tracker</h3>
+        <p class="muted">Printable + iPad-friendly tracker for progress.</p>
+        <p><a class="btn" href="https://gumroad.com/" target="_blank" rel="noopener">Buy</a></p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:26px;">Disclaimer</h2>
+    <p class="muted">
+      Educational use only. Not FAA-approved. Always reference the aircraft POH/AFM and current FAA publications.
+    </p>
+
+    <h2 style="margin-top:26px;">Contact</h2>
+    <p class="muted">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  </main>
+
+  <footer>© <span id="y"></span> ACS Pathway</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
